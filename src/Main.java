@@ -9,7 +9,7 @@ public class Main {
             System.out.println("Тебе уже больше 18 лет");
         }
         if (age <= 17) {
-            System.out.println("Тебе еще нет 18 лет, подожди " + ( 18 - age )+ " лет / года");
+            System.out.println("Тебе еще нет 18 лет, подожди " + ( 18 - age )+ " лет");
         }
 
         //Второе задание
@@ -33,9 +33,70 @@ public class Main {
         }
 
         // Четвертая задача
+        int age_person = 40;
 
+        if (age_person >= 2 && age_person <= 6 ){
+            System.out.println("Иди в детский сад, тебе "+age_person+ " года");
+        }
+        if (age_person >= 7 && age_person <= 18){
+            System.out.println("Иди в школу, тебе "+age_person+ " лет");
+        }
+        if (age_person > 18 && age_person <= 24){
+            System.out.println("Иди в университет, тебе "+age_person+ " лет");
+        }
+        if (age_person > 24){
+            System.out.println("Иди работать, тебе "+age_person+ " лет");
+        }
 
+        // Пятая задача
+        int age_old = 3;
+        boolean older = true;
 
+        if (age_old > 5){
+            System.out.println("Он не может кататься на атракционе");
+        }
+
+        if (age_old >= 5 && age_old < 14 && older == true) {
+            System.out.println("Он может кататься но только со взрослыми");
+        }
+            else System.out.println("Он не может кататься на атракционе");
+        if (age_old > 14) {
+            System.out.println("Он может кататься один");
+        }
+        //Шестая задача
+
+        int capacity = 85;
+
+        if (capacity < 102) {
+            System.out.println("Осталось " + (102 - capacity) + " мест");
+        }
+        else System.out.println("Мест больше нет");
+        if (capacity > 60) {
+            System.out.println(102 - 60 + " человека будут стоять");
+        }
+
+        int one = 150;
+        int two = 104;
+        int three = -4;
+
+        if (one > two){
+            if (one > three) {
+                System.out.println("Самое большое число: " + one + " one");
+
+            }
+        }
+        if (two > one){
+            if (two > three) {
+                System.out.println("Самое большое число: " + two + " two");
+
+            }
+        }
+        if (three > two){
+            if (three > one) {
+                System.out.println("Самое большое число: " + three + " three");
+
+            }
+        }
     }
 
 }
