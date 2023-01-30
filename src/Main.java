@@ -75,6 +75,7 @@ public class Main {
             System.out.println(102 - 60 + " человека будут стоять");
         }
 
+        //Седьмая задача
         int one = 150;
         int two = 104;
         int three = -4;
@@ -82,20 +83,20 @@ public class Main {
         if (one > two){
             if (one > three) {
                 System.out.println("Самое большое число: " + one + " one");
-
             }
+            else System.out.println("Error");
         }
         if (two > one){
             if (two > three) {
                 System.out.println("Самое большое число: " + two + " two");
-
             }
+            else System.out.println("Error");
         }
         if (three > two){
             if (three > one) {
                 System.out.println("Самое большое число: " + three + " three");
-
             }
+            else System.out.println("Error");
         }
     }
 
